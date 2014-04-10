@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style/main.css"/>
+    <script src="js/main.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>Montana Oil Entrepreneurs Organization</title>
+  </head>
+  <body>
+    <header>
+      <div class="center">
+	<div id="title-wrapper">
+	  <img src="images/eo-montana.png" alt="nebraska entrepreneur organization logo"/>
+	  <h1>Montana Oil Entrepreneurs Organization</h1>
+	</div> <!-- end #title-wrapper -->
+	<div class="clear"></div>
+	<div id="nav-wrapper">
+	  <nav>
+	    <ul>
+	      <li>Home</li>
+	      <li class="active">Keystone</li>
+	      <li>Affiliates</li>
+	      <li>About</li>
+	    </ul>
+	  </nav>
+	</div> <!-- end #nav-wrapper -->
+      </div> <!-- end .center -->
+    </header>
+    <div class="center">
+      <main>
+	<section id="benefits">
+	  <div class="text-wrapper">
+	    <h2>The Keystone XL Pipeline</h2>
+	    <h3>Thousands of New Jobs!</h3>
+	    <p><a href="#">According to official reports</a> the new and safer proposed <a href="#">TransCanandas Keystone XL Pipeline</a> will bring thousands new and much needed jobs to our region.</p>
+	    <p>Depending on acceptance through a Presidential Permit the pipeline will be constructed to go from Nebraska and all the way to the Gulf Coast transporting tons of oils every day.</p>
+	    <p>Help us get the needed support for the Presidential Permit for the Keystone XL Pipeline!</p>
+	    <a class="vote" href="#">Add Your Support!</a>
+	  </div> <!-- end .text-wrapper -->
+	  <figure>
+	    <img src="images/route.png" alt="benefits illustration, map over Nothern America and the proposed route for the Keystone XL Pipeline"/>
+	    <figcaption>The proposed route of the Keystone XL Pipeline, which stretches from Nebraska in the north to The Gulf Coast in the south</figcaption>
+	  </figure>
+	</section> <!-- end #benefits -->
+	<section id="facts">
+	  <h2>Factbox</h2>
+	  <figure id="new-jobs">
+	    <figcaption>Almost <span id="jobs">90% of all Americans</span> believe that The Keystone XL Pipeline will create a <span>significant number of new jobs!</span></figcaption>
+	    <div class="clear"></div>
+	    <img src="images/approval-rate-cut.png">
+	  </figure>
+	  <figure id="approval-rate">
+	    <figcaption><span id="most">Most Americans</span> feel that The Keystone XL Pipeline will benefit our nation, <span>regardless of political affiliation!</span></figcaption>
+	    <img src="images/approval-rate-cut.png">
+	  </figure>
+	  <figure id="oil-day">
+	    <figcaption>The Keystone XL Pipeline will bring more than <span id="dollars">$80 million worth of oil</span> through our regions <span id="per-day">every single day!</span></figcaption>
+	    <img src="images/approval-rate-cut.png">
+	  </figure>
+	</section> <!-- end #facts -->
+	<section id="proof">
+	  <h2>What our members say on The Keystone XL</h2>
+	  <img src="images/headshot.jpg" alt="profile photo of Corey Smiths">
+	  <div id="quote">
+	    <h3>"The Keystone XL Pipeline will be vital to the further and future prosperity of our region!"</h3>
+	    <h4>- Corey Smiths</h4>
+	  </div> <!-- end #quote -->
+	  <section id="personalia">
+	    <h3>Corey Smiths</h3>
+	    <h4>Entrepreneur and Qualified Engineer</h4>
+	    <p>After graduating as an Engineer in Mechanics at <a href="#">The University of Montana</a> he started his successful business <a href="#">Smiths Oil Filter</a></p>
+	    <p>Corey Smiths approve of The Keystone XL Pipeline.</p>
+	    <a class="vote" href="#">Join Corey - Add Your Support!</a>
+	  </section> <!-- end #personalia -->
+	</section> <!-- end #proof -->
+      </main>
+      <footer>
+	<div id="footer-wrapper">
+	  <div id="about">
+	    <h5>About</h5>
+	    <p>Montana Oil</p>
+	    <p>Entrepreneurs</p>
+	    <p>585, Gutter Street</p>
+	    <p>23-414, Montana</p>
+	  </div> <!-- end #contact -->
+	  <div id="contact">
+	    <h5>Contact</h5>
+	    <p>montana.entrepreneurs@eo.com</p>
+	    <p><span>Phone:</span> 555 - 381 271</p>
+	    <p><span>Fax:</span> 555 - 381 271</p>
+	  </div> <!-- end #contact -->
+	  <div id="socials">
+	    <img id="facebook" src="images/facebook_orange.png" alt="facebook logo"/>
+            <img id="twitter" src="images/twitter_alt_gray.png" alt="twitter logo"/>
+            <img id="linkedin" src="images/linkedin_gray.png" alt="linkedin logo"/>
+            <img id="google" src="images/google_gray.png" alt="google plus logo"/>
+	  </div> <!-- end #socials -->
+	</div> <!-- end #footer-wrapper -->
+      </footer>
+    </div> <!-- end .center -->
+  </body>
+</html>

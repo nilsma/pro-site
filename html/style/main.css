@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    background-color: lightgrey;
+    background-image: url('../images/squared_metal_blue.png');
+    background-repeat: repeat;
+    }
+
+div.center {
+    margin: 0 auto;
+    width: 920px;
+    }
+
+header {
+    float: left;
+    height: 145px;
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    }
+
+div#title-wrapper {
+    box-shadow: 0px 2px 5px #000;
+    float: left;
+    }
+
+header h1 {    
+    background-color: silver;
+    color: darkorange;
+    color: #e4701e;
+    float: left;
+    font-family: sans serif;
+    font-size: 2em;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #777;
+    width: 550px;
+    }
+
+header img {
+    background-color: silver;
+    float: left;
+    font-family: sans serif;
+    height: 76px;
+    padding: 10px;
+    width: 330px;
+    }
+
+div.clear {
+    clear: both;
+    }
+
+div#nav-wrapper {
+    position: absolute;
+      bottom: 10px;
+      left: 0;
+    width: 100%;
+    }
+
+nav {
+    margin: 0 auto;
+    width: 400px;
+    }
+
+nav ul {
+    list-style: none;
+    }
+
+nav ul li {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
+    font-family: sans serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    padding: 5px;
+    }
+
+nav ul li:last-child {
+    margin-right: 0;
+    }
+
+nav ul li.active {
+    background-color: rgba(100, 100, 100, 0.7);
+    border-radius: 5px;
+    color: rgb(220, 220, 220);
+    box-shadow: inset 0px 0px 2px #000;
+    }
+
+nav ul li:hover {
+    background-color: rgba(100, 100, 100, 1);
+    border-radius: 5px;
+    color: rgb(220, 220, 220);
+    cursor: pointer;
+    }
+
+main {
+    box-shadow: 0px -2px 5px #000;
+    float: left;
+    width: 920px;
+    }
+
+section#benefits {
+    background-color: slategrey;
+    background-color: white;
+    height: 370px;
+    padding-top: 20px;
+    }
+
+div.text-wrapper {
+    float: left;
+    height: 310px;
+    padding: 20px;
+    position: relative;
+    width: 510px;
+    }
+
+section#benefits h2, 
+section#benefits h3 {
+    color: #222;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+    }
+
+section#benefits p {
+    color: #222;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    }
+
+section#benefits a.vote {
+    position: absolute;
+      bottom: 35px;
+      left: 225px;
+    width: 115px;
+    }
+
+section#proof a.vote {
+    margin-top: 20px;
+    }
+
+a.vote {
+    background-color: #e4701e;
+    box-shadow: 1px 2px 3px #000;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    }
+
+a.vote:hover {
+    background-color: silver;
+    background-color: rgb(150, 150, 150);
+    color: white;
+    }
+
+a.vote:active {
+    background-color: grey;
+    }
+
+section#benefits figure {
+    border: 1px solid black;
+    float: right;
+    height: 280px;
+    margin-top: 40px;
+    margin-right: 10px;
+    position: relative;
+    width: 350px;
+    }
+
+section#benefits figure img {
+    height: 200px;
+    margin: 10px;
+    width: 330px;
+    }
+
+section#benefits figure figcaption {
+    font-size: 12px;
+    font-style: italic;
+    padding: 5px;
+    position: absolute;
+      bottom: 5px;
+      left: 0;
+    text-align: center;
+    }
+
+section#facts {
+    background-color: #fff;
+    background-color: slategrey;
+    color: #eee;
+    height: 280px;
+    padding-bottom: 20px;
+    }
+
+section#facts h2 {
+    display: none;
+    }
+
+section#facts figure#new-jobs {
+    float: left;
+    height: 250px;
+    padding: 20px;
+    width: 267px;
+    }
+
+section#facts figure#new-jobs figcaption {
+    font-family: sans-serif;
+    font-size: 14px;
+    }
+
+section#facts figure#new-jobs figcaption span {
+    font-size: 16px;
+    font-weight: bold;
+    }
+
+section#facts figure#new-jobs img {
+    height: 160px;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 160px;
+    }
+
+section#facts figure#approval-rate {
+    border-right: 1px dashed #aaa;
+    border-left: 1px dashed #aaa;
+    font-family: sans-serif;
+    font-size: 14px;
+    float: left;
+    height: 240px;
+    padding: 20px;
+    width: 264px;
+    }
+
+section#facts figure#approval-rate img {
+    height: 160px;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 160px;
+    }
+
+section#facts figure#approval-rate span {
+    font-size: 16px;
+    font-weight: bold;
+    }
+
+section#facts figure#oil-day {
+    font-family: sans-serif;
+    font-size: 14px;
+    float: left;
+    height: 240px;
+    padding: 20px;
+    width: 266px;
+    }
+
+section#facts figure#oil-day span {
+    font-size: 16px;
+    font-weight: bold;
+    }
+
+section#facts figure#oil-day img {
+    height: 160px;
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 160px;
+    }
+
+section#proof {
+    background-color: slategrey;
+    background-color: white;
+    height: 320px;
+    padding: 20px;
+    }
+
+section#proof h2 {
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+
+section#proof img {
+//    background-color: pink;
+    float: left;
+    height: 240px;
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 240px;
+    }
+
+section#proof div#quote {
+//    background-color: silver;
+    float: left;
+    height: 240px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 270px;
+    }
+
+div#quote h3 {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+div#quote h4 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+    margin-left: 40px;
+    }
+
+section#personalia {
+//    background-color: lightblue;
+    float: left;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 260px;
+    }
+
+section#personalia h3 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    }
+
+section#personalia h4 {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 10px;
+    }
+
+section#personalia p {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 10px 15px 10px 15px;
+    }
+
+footer {
+    background-color: silver;
+    box-shadow: 0px 2px 5px #000;
+    float: left;
+    font-family: sans-serif;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 920px;
+    }
+
+div#footer-wrapper {
+    margin: 0 auto;
+    height: 100px;
+    width: 750px;
+    }
+
+footer h5 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    }
+
+footer p {
+    font-size: 12px;
+    }
+
+div#about {
+    float: left;
+    }
+
+div#contact {
+    float: left;
+    margin-left: 150px;
+    }
+
+div#socials {
+    float: left;
+    height: 50px;
+    margin-left: 110px;
+    margin-top: 30px;
+    }
+
+div#socials img {
+    height: 40px;
+    width: 40px;
+    }
+
+div#socials img:hover {
+    cursor: pointer;
+    }
