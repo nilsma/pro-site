@@ -33,7 +33,6 @@ div#title-wrapper {
     }
 
 header h1 {    
-    color: white;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 3em;
     font-weight: normal;
@@ -45,9 +44,13 @@ header h1 {
     width: 320px;
     }
 
+header h1 a {
+    color: white;
+    text-decoration: none;
+    }
+
 header img {
     float: left;
-    font-family: sans serif;
     height: 90px;
     margin-top: 29px;
     margin-left: 40px;
@@ -75,10 +78,8 @@ nav ul {
     }
 
 nav ul li {
-//    background-color: rgb(255, 255, 255);
-//    background-color: rgba(255, 255, 255, 0);
     float: left;
-    font-family: sans serif;
+    font-family: 'sans serif';
     font-size: 16px;
     letter-spacing: 1px;
     margin-right: 20px;
@@ -88,7 +89,6 @@ nav ul li a {
     color: black;
     display: block;
     float: left;
-    outline: none;
     padding: 5px;
     text-decoration: none;
     }
@@ -103,7 +103,7 @@ nav ul li:last-child {
     margin-right: 0;
     }
 
-nav ul li.active {
+nav ul li.active a {
     background-color: rgba(140, 140, 140, 0.7);
     border-radius: 5px;
     color: #222;
@@ -111,7 +111,7 @@ nav ul li.active {
     padding: 5px;
     }
 
-nav ul li:hover {
+nav ul li a:hover {
     background-color: rgba(100, 100, 100, 1);
     border-radius: 5px;
     color: rgb(220, 220, 220);
@@ -174,8 +174,13 @@ section#benefits p {
 section#benefits a.vote {
     position: absolute;
       bottom: 10px;
-      left: 160px;
+      left: 145px;
     width: 115px;
+    }
+
+a.vote:focus {
+    background-color: #64310D;
+    color: white;
     }
 
 section#proof a.vote {
@@ -214,13 +219,13 @@ section#benefits figure {
     height: 290px;
     margin-top: 40px;
     position: relative;
-    width: 375px;
+    width: 373px;
     }
 
 section#benefits figure img {
     height: 220px;
     margin: 10px;
-    width: 355px;
+    width: 354px;
     }
 
 section#benefits figure figcaption {
@@ -258,10 +263,6 @@ section#facts {
     color: #eee;
     height: 280px;
     padding-bottom: 20px;
-    }
-
-section#facts h2 {
-    display: none;
     }
 
 section#facts figure#new-jobs {
@@ -347,7 +348,6 @@ section#proof h2 {
     }
 
 section#proof img {
-//    background-color: pink;
     float: left;
     height: 240px;
     margin-top: 20px;
@@ -356,7 +356,6 @@ section#proof img {
     }
 
 section#proof div#quote {
-//    background-color: silver;
     float: left;
     height: 240px;
     margin-top: 20px;
@@ -383,7 +382,6 @@ div#quote h4 {
     }
 
 section#personalia {
-//    background-color: lightblue;
     float: left;
     height: 220px;
     margin-top: 20px;
@@ -420,7 +418,7 @@ footer {
     float: left;
     font-family: sans-serif;
     margin-top: 40px;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     width: 920px;
     }
@@ -454,8 +452,8 @@ div#contact {
 div#socials {
     float: left;
     height: 50px;
-    margin-left: 110px;
-    margin-top: 30px;
+    margin-left: 130px;
+    margin-top: 23px;
     }
 
 div#socials img {
@@ -472,8 +470,3 @@ section#facts,
 footer {
     background-color: #2E4D72;
     }
-
-//blue: #005088
-//orange: #e4701e
-//third: #089F39
-//brown: #64310D
