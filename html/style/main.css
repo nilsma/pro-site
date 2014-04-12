@@ -15,39 +15,43 @@ div.center {
     }
 
 header {
-    float: left;
-    height: 145px;
-    margin-top: 40px;
+    float: none;
+    height: 205px;
+    margin: 60px auto 0;
     position: relative;
-    width: 100%;
+    width: 920px;
     }
 
 div#title-wrapper {
+    background-color: slategrey;
+    background-color: #707D90;
+    background-color: #005088;
     box-shadow: 0px 2px 5px #000;
-    float: left;
+    height: 155px;
+    margin: 0 auto;
+    width: 920px;
     }
 
 header h1 {    
-    background-color: silver;
-    color: darkorange;
-    color: #e4701e;
-    float: left;
-    font-family: sans serif;
-    font-size: 2em;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3em;
     font-weight: normal;
-    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
     text-align: center;
     text-shadow: 1px 1px 2px #777;
-    width: 550px;
+    width: 320px;
     }
 
 header img {
-    background-color: silver;
     float: left;
     font-family: sans serif;
-    height: 76px;
-    padding: 10px;
-    width: 330px;
+    height: 90px;
+    margin-top: 29px;
+    margin-left: 40px;
+    width: 100px;
     }
 
 div.clear {
@@ -63,7 +67,7 @@ div#nav-wrapper {
 
 nav {
     margin: 0 auto;
-    width: 400px;
+    width: 770px;
     }
 
 nav ul {
@@ -88,7 +92,7 @@ nav ul li:last-child {
 nav ul li.active {
     background-color: rgba(100, 100, 100, 0.7);
     border-radius: 5px;
-    color: rgb(220, 220, 220);
+    color: #222;
     box-shadow: inset 0px 0px 2px #000;
     }
 
@@ -161,6 +165,9 @@ a.vote {
 a.vote:hover {
     background-color: silver;
     background-color: rgb(150, 150, 150);
+    background-color: #0066cc;
+    background-color: #089F39;
+    background-color: #64310D;
     color: white;
     }
 
@@ -197,6 +204,8 @@ section#benefits figure figcaption {
 section#facts {
     background-color: #fff;
     background-color: slategrey;
+    background-color: #707D90;
+    background-color: #005088;
     color: #eee;
     height: 280px;
     padding-bottom: 20px;
@@ -242,10 +251,10 @@ section#facts figure#approval-rate {
     }
 
 section#facts figure#approval-rate img {
-    height: 160px;
-    margin-left: 60px;
-    margin-top: 25px;
-    width: 160px;
+    height: 170px;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 230px;
     }
 
 section#facts figure#approval-rate span {
@@ -355,7 +364,10 @@ section#personalia p {
 
 footer {
     background-color: silver;
+    background-color: #707D90;
+    background-color: #005088;
     box-shadow: 0px 2px 5px #000;
+    color: white;
     float: left;
     font-family: sans-serif;
     margin-top: 40px;
@@ -405,3 +417,14 @@ div#socials img {
 div#socials img:hover {
     cursor: pointer;
     }
+
+div#title-wrapper,
+section#facts,
+footer {
+    background-color: #2E4D72;
+    }
+
+//blue: #005088
+//orange: #e4701e
+//third: #089F39
+//brown: #64310D

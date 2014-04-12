@@ -4,8 +4,8 @@
  * on mouseleave
  */
 function altFacebook() {
-    var oldsrc = 'images/facebook_gray.png';
-    var newsrc = 'images/facebook_orange.png';
+    var oldsrc = 'images/facebook_orange.png';
+    var newsrc = 'images/facebook-brown.png';
     $('#facebook').mouseenter(function() {
         $(this).attr('src', newsrc);
     }).mouseleave(function() {
@@ -19,8 +19,8 @@ function altFacebook() {
  * on mouseleave
  */
 function altTwitter() {
-    var oldsrc = 'images/twitter_alt_gray.png';
-    var newsrc = 'images/twitter_alt_orange.png';
+    var oldsrc = 'images/twitter_alt_orange.png';
+    var newsrc = 'images/twitter_alt-brown.png';
     $('#twitter').mouseenter(function() {
         $(this).attr('src', newsrc);
     }).mouseleave(function() {
@@ -34,8 +34,8 @@ function altTwitter() {
  * on mouseleave
  */
 function altGoogle() {
-    var oldsrc = 'images/google_gray.png';
-    var newsrc = 'images/google_orange.png';
+    var oldsrc = 'images/google_orange.png';
+    var newsrc = 'images/google-brown.png';
     $('#google').mouseenter(function() {
         $(this).attr('src', newsrc);
     }).mouseleave(function() {
@@ -49,8 +49,8 @@ function altGoogle() {
  * on mouseleave
  */
 function altYoutube() {
-    var oldsrc = 'images/linkedin_gray.png';
-    var newsrc = 'images/linkedin_orange.png';
+    var oldsrc = 'images/linkedin_orange.png';
+    var newsrc = 'images/linkedin-brown.png';
     $('#linkedin').mouseenter(function() {
         $(this).attr('src', newsrc);
     }).mouseleave(function() {
