@@ -75,14 +75,28 @@ nav ul {
     }
 
 nav ul li {
-    background-color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0);
+//    background-color: rgb(255, 255, 255);
+//    background-color: rgba(255, 255, 255, 0);
     float: left;
     font-family: sans serif;
     font-size: 16px;
     letter-spacing: 1px;
     margin-right: 20px;
+    }
+
+nav ul li a {
+    color: black;
+    display: block;
+    float: left;
+    outline: none;
     padding: 5px;
+    text-decoration: none;
+    }
+
+nav ul li a:active {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
     }
 
 nav ul li:last-child {
@@ -90,10 +104,11 @@ nav ul li:last-child {
     }
 
 nav ul li.active {
-    background-color: rgba(100, 100, 100, 0.7);
+    background-color: rgba(140, 140, 140, 0.7);
     border-radius: 5px;
     color: #222;
     box-shadow: inset 0px 0px 2px #000;
+    padding: 5px;
     }
 
 nav ul li:hover {
@@ -112,16 +127,33 @@ main {
 section#benefits {
     background-color: slategrey;
     background-color: white;
-    height: 370px;
+    height: 350px;
     padding-top: 20px;
+    }
+
+div#left {
+    float: left;
+    height: 100%;
+    width:50px;
+    }
+
+div#left img {
+    float: left;
+    margin-top: 150px;
+    width: 50px;
+    }
+
+div#left img:hover {
+    background-color: #eee;
+    cursor: pointer;
     }
 
 div.text-wrapper {
     float: left;
-    height: 310px;
-    padding: 20px;
+    height: 320px;
+    padding: 10px 10px 10px 10px;
     position: relative;
-    width: 510px;
+    width: 420px;
     }
 
 section#benefits h2, 
@@ -141,8 +173,8 @@ section#benefits p {
 
 section#benefits a.vote {
     position: absolute;
-      bottom: 35px;
-      left: 225px;
+      bottom: 10px;
+      left: 160px;
     width: 115px;
     }
 
@@ -172,23 +204,23 @@ a.vote:hover {
     }
 
 a.vote:active {
-    background-color: grey;
+    background-color: black;
+    color: white;
     }
 
 section#benefits figure {
     border: 1px solid black;
-    float: right;
-    height: 280px;
+    float: left;
+    height: 290px;
     margin-top: 40px;
-    margin-right: 10px;
     position: relative;
-    width: 350px;
+    width: 375px;
     }
 
 section#benefits figure img {
-    height: 200px;
+    height: 220px;
     margin: 10px;
-    width: 330px;
+    width: 355px;
     }
 
 section#benefits figure figcaption {
@@ -199,6 +231,23 @@ section#benefits figure figcaption {
       bottom: 5px;
       left: 0;
     text-align: center;
+    }
+
+div#right {
+    float: right;
+    height: 100%;
+    width:50px;
+    }
+
+div#right img {
+    float: right;
+    margin-top: 150px;
+    width: 50px;
+    }
+
+div#right img:hover {
+    background-color: #eee;
+    cursor: pointer;
     }
 
 section#facts {
@@ -268,7 +317,7 @@ section#facts figure#oil-day {
     float: left;
     height: 240px;
     padding: 20px;
-    width: 266px;
+    width: 260px;
     }
 
 section#facts figure#oil-day span {
