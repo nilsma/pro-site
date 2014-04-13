@@ -23,9 +23,7 @@ header {
     }
 
 div#title-wrapper {
-    background-color: slategrey;
-    background-color: #707D90;
-    background-color: #005088;
+    background-color: #2E4D72;
     box-shadow: 0px 2px 5px #000;
     height: 155px;
     margin: 0 auto;
@@ -106,8 +104,8 @@ nav ul li:last-child {
 nav ul li.active a {
     background-color: rgba(140, 140, 140, 0.7);
     border-radius: 5px;
-    color: #222;
     box-shadow: inset 0px 0px 2px #000;
+    color: #222;
     padding: 5px;
     }
 
@@ -125,8 +123,7 @@ main {
     }
 
 section#benefits {
-    background-color: slategrey;
-    background-color: white;
+    background-color: #ffffff;
     height: 350px;
     padding-top: 20px;
     }
@@ -158,14 +155,14 @@ div.text-wrapper {
 
 section#benefits h2, 
 section#benefits h3 {
-    color: #222;
+    color: #222222;
     font-family: sans-serif;
     font-weight: normal;
     margin-bottom: 10px;
     }
 
 section#benefits p {
-    color: #222;
+    color: #222222;
     font-family: sans-serif;
     font-size: 16px;
     margin-bottom: 10px;
@@ -180,7 +177,7 @@ section#benefits a.vote {
 
 a.vote:focus {
     background-color: #64310D;
-    color: white;
+    color: #ffffff;
     }
 
 section#proof a.vote {
@@ -200,21 +197,17 @@ a.vote {
     }
 
 a.vote:hover {
-    background-color: silver;
-    background-color: rgb(150, 150, 150);
-    background-color: #0066cc;
-    background-color: #089F39;
     background-color: #64310D;
     color: white;
     }
 
 a.vote:active {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     }
 
 section#benefits figure {
-    border: 1px solid black;
+    border: 1px solid #000000;
     float: left;
     height: 290px;
     margin-top: 40px;
@@ -251,15 +244,12 @@ div#right img {
     }
 
 div#right img:hover {
-    background-color: #eee;
+    background-color: #eeeeee;
     cursor: pointer;
     }
 
 section#facts {
-    background-color: #fff;
-    background-color: slategrey;
-    background-color: #707D90;
-    background-color: #005088;
+    background-color: #2E4D72;
     color: #eee;
     height: 280px;
     padding-bottom: 20px;
@@ -292,9 +282,9 @@ section#facts figure#new-jobs img {
 section#facts figure#approval-rate {
     border-right: 1px dashed #aaa;
     border-left: 1px dashed #aaa;
+    float: left;
     font-family: sans-serif;
     font-size: 14px;
-    float: left;
     height: 240px;
     padding: 20px;
     width: 264px;
@@ -313,9 +303,9 @@ section#facts figure#approval-rate span {
     }
 
 section#facts figure#oil-day {
+    float: left;
     font-family: sans-serif;
     font-size: 14px;
-    float: left;
     height: 240px;
     padding: 20px;
     width: 260px;
@@ -334,8 +324,7 @@ section#facts figure#oil-day img {
     }
 
 section#proof {
-    background-color: slategrey;
-    background-color: white;
+    background-color: #ffffff;
     height: 320px;
     padding: 20px;
     }
@@ -410,9 +399,7 @@ section#personalia p {
     }
 
 footer {
-    background-color: silver;
-    background-color: #707D90;
-    background-color: #005088;
+    background-color: #2E4D72;
     box-shadow: 0px 2px 5px #000;
     color: white;
     float: left;
@@ -463,10 +450,4 @@ div#socials img {
 
 div#socials img:hover {
     cursor: pointer;
-    }
-
-div#title-wrapper,
-section#facts,
-footer {
-    background-color: #2E4D72;
     }
